@@ -1,0 +1,86 @@
+body {
+  font-family: 'Open Sans', 'Georgia';
+}
+
+.clock-box {
+    /* font-family: Orbitron; */
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .header {
+    display: flex;
+    /* justify-content: flex-start; */
+    text-align: left;
+    width: 340px;
+    margin: 10px auto;
+    
+  }
+  
+  .tabs {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .tabs ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  .tabs li {
+    background-color: lightblue;
+    padding: 2px;
+    width: 65px;
+    border: 2px solid black;
+    border-right: 0px;
+    border-bottom: 2px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .tabs li:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
+  .tabs li:last-of-type {
+    border-right: 2px solid black;
+  }
+
+  .tabs .current-tab {
+      border-bottom: 2px solid transparent;
+  }
+
+  ul h1 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .tabs article {
+    color: white;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    height: 200px;
+    border: 2px solid black;
+    border-top: 0px solid black;
+    font-weight: 700;
+  }
